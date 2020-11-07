@@ -1,12 +1,8 @@
 # lidar-camera-fusion
 
 # 安装
- - 建立工作空间并拷贝这个库
+ - 拷贝这个库并编译
    ```Shell
-   mkdir -p ros_ws/src
-   cd ros_ws/src
-   git clone https://github.com/shangjie-li/lidar-camera-fusion.git
-   cd ..
    catkin_make -DCATKIN_WHITELIST_PACKAGES="aruco;aruco_ros;aruco_msgs"
    catkin_make -DCATKIN_WHITELIST_PACKAGES="aruco_mapping;lidar_camera_calibration"
    catkin_make -DCATKIN_WHITELIST_PACKAGES=""

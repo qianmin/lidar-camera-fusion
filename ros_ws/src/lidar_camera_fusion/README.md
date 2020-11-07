@@ -2,6 +2,16 @@
 
 ROS package for lidar and camera fusion
 
+## 安装
+ - 建立工作空间并拷贝这个库
+   ```Shell
+   mkdir -p ros_ws/src
+   cd ros_ws/src
+   git clone https://github.com/shangjie-li/lidar-camera-fusion.git
+   cd ..
+   catkin_make
+   ```
+
 ## 参数配置
  - 修改`lidar_camera_fusion/launch/lidar_camera_fusion.launch`
    ```Shell
