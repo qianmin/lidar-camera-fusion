@@ -3,9 +3,9 @@
 # 安装
  - 拷贝这个库并编译
    ```Shell
-   catkin_make -DCATKIN_WHITELIST_PACKAGES="aruco;aruco_ros;aruco_msgs"
-   catkin_make -DCATKIN_WHITELIST_PACKAGES="aruco_mapping;lidar_camera_calibration"
-   catkin_make -DCATKIN_WHITELIST_PACKAGES=""
+   catkin_make -DCATKIN_WHITELIST_PACKAGES="aruco;aruco_ros;aruco_msgs" -DCMAKE_CXX_FLAGS="-std=c++11"
+   catkin_make -DCATKIN_WHITELIST_PACKAGES="aruco_mapping;lidar_camera_calibration" -DCMAKE_CXX_FLAGS="-std=c++11"
+   catkin_make -DCATKIN_WHITELIST_PACKAGES="" -DCMAKE_CXX_FLAGS="-std=c++11"
    ```
 
 # 使用说明
