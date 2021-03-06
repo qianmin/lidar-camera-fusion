@@ -1,6 +1,11 @@
 # lidar-camera-fusion（钱敏已修改，编译提示缺什么安装什么）
 # 1 相机标定是需要的
 # 2 联合标定直接看最底下的图
+
+conda太麻烦怎么办↓
+```
+alias deactivate='conda activate yolo5'
+```
 # 安装
  - 拷贝这个库并编译
    ```Shell
