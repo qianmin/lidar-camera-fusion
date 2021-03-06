@@ -1,4 +1,4 @@
-# lidar-camera-fusion
+# lidar-camera-fusion（钱敏已修改，编译提示缺什么安装什么）
 
 # 安装
  - 拷贝这个库并编译
